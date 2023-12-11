@@ -1,0 +1,6 @@
+<h2>Job Applications</h2>
+<ul>
+  <li *ngFor="let application of jobApplications">
+    User: {{ application.user.fullname }} - Job: {{ application.job.title }}
+  </li>
+</ul>
